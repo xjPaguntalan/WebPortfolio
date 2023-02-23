@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.navbar {
+    background-color: #002540;
+}
+
+#mypic {
+    width: 250px;
+}
+
+#me {
+    font-size: 20px;
+}
+
+#aboutme, #projects, #contactme {
+    padding-top: 80px;
+}
+
+#contactme {
+    min-height: 80vh;
+}
+
+.schoolpics {
+    width: 75%;
+    height: 50%;
+    opacity: 0.8;
+}
+
+.schoolinfo {
+    width: 500px;
+    height: 400px;
+}
+
+.projpic {
+    height: 50vh;
+}
+
+#project-info {
+    background-color: #002540;
+}
+
+#btn {
+    width: 100px;
+}
+
+#form {
+    background-color: #002540;
+}
+
+#footer {
+    background-color: #002540;
+    
+}
