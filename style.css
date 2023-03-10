@@ -85,8 +85,8 @@ nav #aboutMe, #skills, #projects, #contactMe {
 }
 
 #aboutMePage {
-    background: rgb(224,195,71);
-    background: linear-gradient(267deg, rgba(224,195,71,1) 33%, rgba(213,191,212,1) 100%);
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(48,73,201,1) 0%, rgba(252,70,107,1) 100%);
 }
 
 #aboutMePage img {
@@ -101,9 +101,7 @@ nav #aboutMe, #skills, #projects, #contactMe {
     font-size: 40px;
     line-height: 48px;
 
-    background: linear-gradient(to right, #bc07c7 0%, #251ecc 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #e9e960;
 
 }
 
@@ -114,9 +112,7 @@ nav #aboutMe, #skills, #projects, #contactMe {
     font-size: 40px;
     line-height: 48px;
 
-    background: linear-gradient(to right, #FF4A52 0%, #07c78f 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #abfe01;
 
 
 }
@@ -129,9 +125,11 @@ nav #aboutMe, #skills, #projects, #contactMe {
     line-height: 24px;
     
 
-    background: linear-gradient(to right, #d51c1c 0%, #4743c3 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #51F5EF;
+}
+
+#skillsPage {
+    background: #134969;
 }
 
 #skillsPage h1 {
@@ -141,12 +139,13 @@ nav #aboutMe, #skills, #projects, #contactMe {
     font-size: 60px;
     line-height: 73px;
     
-    color: #F6756C;
+    color: white;
 }
 
 #skillsPage img {
     width: 100%;
     height: 100%;
+    border-radius: 20px;
 }
 
 #skillsPage h4 {
@@ -157,7 +156,7 @@ nav #aboutMe, #skills, #projects, #contactMe {
     line-height: 24px;
     padding-top: 7px;
 
-    color: #000000;
+    color: white;
 }
 
 #row {
@@ -178,7 +177,7 @@ nav #aboutMe, #skills, #projects, #contactMe {
     /* identical to box height */
 
 
-    color: #4653C8;
+    color: #003554;
 }
 
 #projectsPage h3{
@@ -187,6 +186,8 @@ nav #aboutMe, #skills, #projects, #contactMe {
     font-weight: 700;
     font-size: 30px;
     line-height: 36px;
+
+    border-bottom: 5px solid #003554;
 
     background: linear-gradient(to right, #ab3ab4 0%, #1dfd96 100%);
     -webkit-background-clip: text;
@@ -218,6 +219,8 @@ nav #aboutMe, #skills, #projects, #contactMe {
 }
 
 #contactMePage h1 {
+    border-bottom: 5px solid #003554;
+
     background: linear-gradient(to right, #47C486 0%, #0E88CF 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
