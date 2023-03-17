@@ -27,7 +27,7 @@ nav #aboutMe, #skills, #projects, #contactMe {
     color: #FFFFFF;
 }
 
-#homepage, #aboutMePage, #skillsPage, #projectsPage, #contactMePage {
+#homepage, #aboutMePage, #skillsPage, #projectsPage {
     padding-top: 80px;
 }
 
@@ -128,10 +128,6 @@ nav #aboutMe, #skills, #projects, #contactMe {
     color: #51F5EF;
 }
 
-#skillsPage {
-    background: #134969;
-}
-
 #skillsPage h1 {
     font-family: 'Inter';
     font-style: normal;
@@ -139,7 +135,7 @@ nav #aboutMe, #skills, #projects, #contactMe {
     font-size: 60px;
     line-height: 73px;
     
-    color: white;
+    color: #003554;
 }
 
 #skillsPage img {
@@ -156,16 +152,11 @@ nav #aboutMe, #skills, #projects, #contactMe {
     line-height: 24px;
     padding-top: 7px;
 
-    color: white;
+    color: #003554;
 }
 
-#row {
-    display: flex;
-    align-items: center;
-}
-
-#projectsPage img{
-    height: 55vh;
+#projectsPage {
+    background-color: #003554;
 }
 
 #projectsPage h1{
@@ -174,11 +165,21 @@ nav #aboutMe, #skills, #projects, #contactMe {
     font-weight: 700;
     font-size: 60px;
     line-height: 73px;
-    /* identical to box height */
 
-
-    color: #003554;
+    color: white;
 }
+
+@media (min-width: 800px) { 
+    #projectsPage img {
+      height: 60vh;
+    }
+  }
+
+@media (max-width: 799px) {
+    #projectsPage img {
+      height: 40vh;
+    }
+  }
 
 #projectsPage h3{
     font-family: 'Inter';
@@ -187,23 +188,14 @@ nav #aboutMe, #skills, #projects, #contactMe {
     font-size: 30px;
     line-height: 36px;
 
-    border-bottom: 5px solid #003554;
-
-    background: linear-gradient(to right, #ab3ab4 0%, #1dfd96 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-#projectsContent {
-    padding: 3px;
-    background: #4653C8;
+    color: white;
 }
 
 #backgroundImage {
     background-image: url(./images/contact.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 900px;
+    height: 100vh;
 }
 
 #contactMePage h1{
