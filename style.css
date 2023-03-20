@@ -27,6 +27,15 @@ nav #aboutMe, #skills, #projects, #contactMe {
     color: #FFFFFF;
 }
 
+.navbar-brand:hover{
+    background-color: black;
+}
+
+.nav-item:hover{
+    background-color: black;
+    border-radius: 20px;
+}
+
 #homepage, #aboutMePage, #skillsPage, #projectsPage {
     padding-top: 80px;
 }
@@ -144,15 +153,19 @@ nav #aboutMe, #skills, #projects, #contactMe {
     border-radius: 20px;
 }
 
-#skillsPage h4 {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 24px;
-    padding-top: 7px;
+.btn-secondary {
+    background-color: #003554;
+    color: white;
+}
 
-    color: #003554;
+.change {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.dropdown-toggle {
+    background-color: #003554;
+    color: white;
 }
 
 #projectsPage {
